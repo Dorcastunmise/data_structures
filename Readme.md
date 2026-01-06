@@ -1,9 +1,7 @@
 # Arrays
 
 <code>
-    Its a continuous fixed type block of memory of different data types which is stored in the RAM and can be defined by its index position. And the values are fetched in constant time (O(1)).
-
-    Use it when you care about order and/or allow duplicates.
+    Its a continuous fixed type block of memory of different data types which is stored in the RAM and can be defined by its index position. And the values are fetched in constant time (O(1)). Use it when you care about order and/or allow duplicates.
 </code>
 
 ## Its Operations:
