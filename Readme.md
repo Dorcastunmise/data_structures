@@ -1,9 +1,7 @@
 # Arrays
 
 <code>
-    Its a continuous fixed type block of memory of different data types which is stored in the RAM and can be defined by its index position. And the values are fetched in constant time (O(1)).
-
-    Use it when you care about order and/or allow duplicates.
+    Its a continuous fixed type block of memory of different data types which is stored in the RAM and can be defined by its index position. And the values are fetched in constant time (O(1)). Use it when you care about order and/or allow duplicates.
 </code>
 
 ## Its Operations:
@@ -42,7 +40,3 @@
 1. Use a set when you only care about uniqueness and fast membership check.
 2. Elements are unordered, cannot repeat.
 3. Lookup, insert, remove are usually O(1).
-
-## What is a Python heap really?
-Python’s <code> heapq </code> is a MIN heap, not a max heap.
-That means: It always removes the smallest value first
