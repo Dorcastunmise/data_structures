@@ -40,3 +40,7 @@
 1. Use a set when you only care about uniqueness and fast membership check.
 2. Elements are unordered, cannot repeat.
 3. Lookup, insert, remove are usually O(1).
+
+## What is a Python heap really?
+Python’s <code> heapq </code> is a MIN heap, not a max heap.
+That means: It always removes the smallest value first
